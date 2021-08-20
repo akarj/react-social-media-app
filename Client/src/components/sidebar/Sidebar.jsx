@@ -70,7 +70,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -78,7 +78,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -86,7 +86,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -94,7 +94,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -102,7 +102,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -110,7 +110,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -118,7 +118,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -126,7 +126,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -134,7 +134,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -142,7 +142,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -150,7 +150,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
           <li className="sidebarFriend">
             <img
               src="/assets/person/1.jpeg"
@@ -158,7 +158,7 @@ export default function Sidebar() {
               className="sidebarFriendImg"
             />
             Barry Allen
-          </li>{" "}
+          </li>
         </ul>
       </div>
     </div>

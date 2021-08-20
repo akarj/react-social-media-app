@@ -1,9 +1,21 @@
+import Post from "../post/Post";
+import Share from "../share/Share";
 import "./Feed.scss";
 
 export default function Feed() {
   return (
     <div className="feed">
-      <span>Feed</span>
+      <div className="feedWrapper">
+        <Share />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </div>
     </div>
   );
 }

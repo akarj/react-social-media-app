@@ -1,0 +1,82 @@
+div.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  box-shadow: -5px 5px 12px -7px #cac0c0, 5px 9px 12px -7px #cac0c0;
+
+  div.feedWrapper {
+    padding: 10px;
+
+    div.shareTop {
+      display: flex;
+      align-items: center;
+
+      img.shareProfileImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 10px;
+      }
+      input.shareInput {
+        border: none;
+        width: 80%;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    hr.shareHr {
+      margin: 20px;
+    }
+    div.shareBottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      div.shareOptions {
+        display: flex;
+        margin-left: 20px;
+
+        div.shareOption {
+          display: flex;
+          align-items: center;
+          margin: 0 15px;
+          cursor: pointer;
+
+          //   &:hover {
+          //     border-right: 1px solid #000;
+          //     border-left: 1px solid #000;
+          //     border-radius: 5px;
+
+          //     padding: 3px;
+          //     box-shadow: 0px 10px 13px -7px #000000;
+          //     //   -50px -12px 0px 8px rgba(83, 83, 83, 0);
+          //   }
+
+          .shareIcon {
+          }
+          span.shareOptionText {
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 5px;
+            padding-left: 5px;
+          }
+        }
+      }
+
+      button.shareButton {
+        border: none;
+        // outline: none;
+        cursor: pointer;
+        padding: 7px 15px;
+        background-color: rgb(30, 185, 30);
+        font-weight: 500;
+        color: white;
+        border-radius: 5px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
