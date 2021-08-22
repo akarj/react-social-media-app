@@ -1,36 +1,37 @@
 import "./Post.scss";
 import { MoreVert } from "@material-ui/icons";
+import { Users } from "../../dummyData";
 
-export default function Post() {
+export default function Post({ post }) {
+  console.log(post.userId);
+  const user = Users.filter((u) => u?.id === post.userId)[0];
+  console.log(user?.username);
+
   return (
     <div className="post">
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img
-              src="/assets/person/5.jpeg"
-              alt=""
-              className="postProfileImg"
-            />
-            <span className="postUsername">Random Chikibum</span>
-            <span className="postDate">3 Lifetime ago...</span>
+            <img src={user?.profilePicture} alt="" className="postProfileImg" />
+            <span className="postUsername">{user?.username}</span>
+            <span className="postDate">{post.date}</span>
           </div>
           <div className="postTopRight">
             <MoreVert />
           </div>
         </div>
         <div className="postCenter">
-          <span className="postText">Big Bang post</span>
-          <img src="assets/post/1.jpeg" alt="" className="postImg" />
+          <span className="postText">{post?.desc}</span>
+          <img src={post?.photo} alt="" className="postImg" />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
             <img src="assets/like.png" alt="" className="likeIcon" />
             <img src="assets/heart.png" alt="" className="likeIcon" />
-            <span className="postLikeCounter">32</span>
+            <span className="postLikeCounter">{post.like}</span>
           </div>
           <div className="postBottomRight">
-            <span className="postCommentText">9 comments</span>
+            <span className="postCommentText">{post.Comment} comments</span>
           </div>
         </div>
       </div>

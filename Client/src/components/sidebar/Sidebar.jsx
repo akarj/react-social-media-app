@@ -10,6 +10,9 @@ import {
   Event,
   School,
 } from "@material-ui/icons";
+import { Users } from "../../dummyData";
+import CloseFriend from "../closeFriend/CloseFriend";
+
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -55,110 +58,9 @@ export default function Sidebar() {
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
-          <li className="sidebarFriend">
-            <img
-              src="/assets/person/1.jpeg"
-              alt="Profile"
-              className="sidebarFriendImg"
-            />
-            Barry Allen
-          </li>
+          {Users.map((user) => (
+            <CloseFriend user={user} key={user.id} />
+          ))}
         </ul>
       </div>
     </div>
