@@ -1,4 +1,4 @@
-import "./closeFriend.scss";
+import "./CloseFriend.scss";
 
 export default function CloseFriend({ user }) {
   return (
